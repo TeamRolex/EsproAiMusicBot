@@ -4,7 +4,6 @@ from AarohiX.core.git import git
 from AarohiX.core.userbot import Userbot
 from AarohiX.misc import dbb, heroku
 
-from SafoneAPI import SafoneAPI
 from .logging import LOGGER
 
 dirr()
@@ -14,7 +13,6 @@ heroku()
 
 app = Dil()
 userbot = Userbot()
-api = SafoneAPI()
 
 
 from .platforms import *
